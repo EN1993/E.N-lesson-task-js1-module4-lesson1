@@ -35,7 +35,9 @@ async function fetchTeams() {
   
     }
   } catch (error) {
+   
     console.log(error);
+    
     resultContainer.innerHTML = message ("error", error);
   }
 }
