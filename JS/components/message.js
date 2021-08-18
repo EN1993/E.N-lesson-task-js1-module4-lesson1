@@ -1,3 +1,3 @@
-function message(messageType="success", message ="") {
-  redturn `<div class="alert ${messageType}"> ${message} </div>`;
+function message(messageType="", message ="") {
+  return `<div class="alert ${messageType}"> ${message} </div>`;
 }

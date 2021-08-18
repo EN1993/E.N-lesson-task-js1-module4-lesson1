@@ -20,12 +20,12 @@
   border: 1px solid darkgreen;
   color: darkgreen;
   padding: 1rem;
-  background: rgb(22, 54, 22);
+  background: rgb(171, 219, 171);
 }
 
 .error {
   border: 1px solid darkred;
-  background: rgb(75, 33, 33);
+  background: rgb(206, 150, 150);
   padding: 1rem;
   color: darkred;
 }
@@ -33,10 +33,11 @@
 .loader {
   width: 110px;
   height: 110px;
-  border: 12px solid white;
+  border: 12px solid rgb(197, 195, 195);
   border-top: 12px solid darkred;
   border-radius: 50%;
-  animation: spin 2s linear infinite;
+  animation: spin 5s linear infinite;
+  margin: 0px 25px;
 }
 
 @keyframes spin {
